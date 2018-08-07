@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var coolJapan: UIImageView!
+    @IBOutlet weak var coolHailey: UIImageView!
+    @IBOutlet weak var coolButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +24,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    @IBAction func DoThis(_ sender: Any) {
+        coolJapan.isHidden = false;
+        coolHailey.isHidden = false;
+        coolButton.isHidden = true;
+    }
+    
 }
 
