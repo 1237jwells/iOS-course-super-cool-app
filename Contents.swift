@@ -69,34 +69,6 @@ if numberA == finalNumber {
 //Conditionals #2
 
 
-var myAccount = 1000.00
-var myFriendsAccount = 2000.00
-var myFriendsFriendsAccount = 3000.00
-
-if myAccount > 900 && myFriendsAccount > 1500 && myFriendsFriendsAccount > 2000 {
-    print("We've got mucho dinero!")
-}
-
-var playerAAlive = true
-var playerBAlive = true
-var playerCAlive = true
-
-if !playerAAlive || playerBAlive == false || playerCAlive == false {
-    print("One of your team members is down!")
-}
-else{
-    print("there all alive! yayyyy!")
-}
-
-
-//Can I retire????
-var age = 23
-var account = 50
-var richUncleThatDiedWhoLeftMeAnInheritance = true
-if account > 70000 && age >= 60 || richUncleThatDiedWhoLeftMeAnInheritance == true {
-    print ("You can retire!!!")
-}
-
 
 
 
